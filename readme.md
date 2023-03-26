@@ -1,7 +1,7 @@
 <h1 align="center">ChatGPT Well-Known Plugin Finder</h1>
 
 <p align="center">
-  Checks Alexa's top 1M websites for the presence of OpenAI's new `/.well-known/ai-plugin.json` file.
+  Checks Alexa's top 1M websites for the presence of OpenAI's new `/.well-known/ai-plugin.json` files.
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@ npx tsx src/index.ts
 
 ## Results
 
-After deduping plugins, the following OpenAI-compatible well-known AI plugins were found:
+After deduping plugins and subdomains that point to the same plugin, the following OpenAI-compatible well-known AI plugins were found:
 
 ```json
 [
@@ -41,7 +41,7 @@ After deduping plugins, the following OpenAI-compatible well-known AI plugins we
 
 Full results can be found in `./ai-plugins-unique.json`.
 
-This is as of March 25, 2023. I anticipate that this list will grow quickly over time.
+**These results are as of March 25, 2023**. I anticipate that this list will grow quickly over time.
 
 Additional known plugins include:
 

@@ -2,7 +2,7 @@
   "name": "chatgpt-well-known-plugin-finder",
   "version": "0.1.0",
   "private": true,
-  "description": "Checks Alexa's top 1M websites for the presence of OpenAI's new .well-known/ai-plugin.json file.",
+  "description": "Checks Alexa's top 1M websites for the presence of OpenAI's new .well-known/ai-plugin.json files.",
   "author": "Travis Fischer <travis@transitivebullsh.it>",
   "repository": "transitive-bullshit/chatgpt-well-known-plugin-finder",
   "homepage": "https://chatgpt-well-known-plugin-finder.vercel.app",
